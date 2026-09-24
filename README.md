@@ -121,32 +121,6 @@ Legacy-Activator streamlines complex command-line exploitation mechanics into a 
    5. A system prompt will instruct you to reboot your device to refresh running state variables.
 
 ------------------------------
-## Project Structure
-
-Legacy-Activator/
-├── backend/
-│   ├── plists/
-│   │   └── [device_model]/
-│   │       └── [build_version]/
-│   │           └── patched.plist
-│   └── server.php
-├── cmd/api/
-│   └── main.go
-├── pkg/
-│   ├── exploits/
-│   │   ├── common/
-│   │   │   └── common.go
-│   │   ├── itunesstored/
-│   │   │   ├── itunesstored.go
-│   │   │   └── payload.sql
-│   │   └── sftp/
-│   │       ├── patch.go
-│   │       └── sftp.go
-├── .DS_Store
-├── go.mod
-├── go.sum
-├── LICENSE
-└── README.md
 
 ## API Reference
 The backend/server.php script exposes two main functionalities:
