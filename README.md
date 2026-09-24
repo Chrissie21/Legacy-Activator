@@ -4,24 +4,6 @@ A Go-based cross-platform application designed to activate older iOS devices by 
 ## Description 
 Legacy-Activator is a tool developed in Go that aims to activate older iOS devices. It utilizes exploits tailored for specific iOS versions and relies on a backend server (written in PHP) to serve necessary configuration files (.plist). The application provides a graphical user interface (GUI) built with Fyne for ease of use.
 It supports activation for a range of iOS versions, utilizing different exploitation methods (e.g., itunesstored for newer versions, SFTP for older versions) based on the detected device and its iOS firmware.
-## Table of Contents 
-
-* 
-* Project Title & Badges
-* Description
-* Table of Contents
-* Technical Architecture & Exploit Deep-Dive
-* Features
-* Tech Stack
-* Installation
-* Usage & Runtime Flow
-* Project Structure
-* API Reference
-* Contributing
-* License
-* Important Links
-* Footer
-* 
 
 ## Technical Architecture & Exploit Deep-Dive 🔬
 Legacy-Activator isolates its core bypassing mechanics into two distinct system pipelines. Rather than breaking cryptographic chain-of-trust over the network, it works by falsifying local system states directly on the hardware.
