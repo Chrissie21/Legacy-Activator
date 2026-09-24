@@ -54,3 +54,7 @@ For earlier iOS architectures, activation enforcement relies on explicit propert
 
 ---
 
+## Credits & References
+
+* **[TA of the Checkm8 Exploit](https://www.elabforensics.com/wp-content/uploads/sites/4/2021/01/Technical-analysis-of-the-checkm8-exploit.pdf)** – In-depth documentation covering low-level iOS hardware exploitation mechanisms.
+* **[King (pgarba/King)](https://github.com/pgarba/King)** – A clean C-port implementation reference for device-level bootrom interactions.
