@@ -58,3 +58,16 @@ For earlier iOS architectures, activation enforcement relies on explicit propert
 
 * **[TA of the Checkm8 Exploit](https://www.elabforensics.com/wp-content/uploads/sites/4/2021/01/Technical-analysis-of-the-checkm8-exploit.pdf)** – In-depth documentation covering low-level iOS hardware exploitation mechanisms.
 * **[King (pgarba/King)](https://github.com/pgarba/King)** – A clean C-port implementation reference for device-level bootrom interactions.
+
+---
+
+## ⚠️ Disclaimer & Educational Use Only
+
+**This project is for educational, research, and proof-of-concept purposes only.** 
+
+By downloading, cloning, or using Legacy-Activator, you agree to the following terms:
+
+* **No Liability:** The author(s) of this project assume absolute zero liability for any data loss, bricked devices, hardware damage, or system instability resulting from the use or misuse of this tool, its backend, or its scripts.
+* **Intended Use:** This tool is designed strictly as an academic exploration of older iOS security architectures, legacy daemons (`itunesstored`, `lockdownd`), and low-level system pipelines. It should only be used on legacy hardware that you own legally.
+* **No Commercial Use:** This software is source-available and explicitly prohibited from being used for commercial purposes, paid repair services, or re-packaged as a paid product. 
+* **Compliance:** You are solely responsible for ensuring that your use of this software complies with all applicable local, national, and international laws, regulations, and terms of service. 
