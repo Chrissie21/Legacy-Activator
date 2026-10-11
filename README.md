@@ -54,10 +54,12 @@ For earlier iOS architectures, activation enforcement relies on explicit propert
 
 ---
 
-## Credits & References
+## Credits & References  
 
-* **[TA of the Checkm8 Exploit](https://www.elabforensics.com/wp-content/uploads/sites/4/2021/01/Technical-analysis-of-the-checkm8-exploit.pdf)** – In-depth documentation covering low-level iOS hardware exploitation mechanisms.
+* **[TA of the Checkm8 Exploit](https://www.elabforensics.com/wp-content/uploads/sites/4/2021/01/Technical-analysis-of-the-checkm8-exploit.pdf)** – In-depth documentation covering low-level iOS hardware exploitation mechanisms. 
 * **[King (pgarba/King)](https://github.com/pgarba/King)** – A clean C-port implementation reference for device-level bootrom interactions.
+* **[bl_sbx (hanakim3945/bl_sbx)](https://github.com/hanakim3945/bl_sbx)** – A proof-of-concept implementation for an iOS `itunesstored` and `bookassetd` sandbox escape vulnerability.
+
 
 ---
 
